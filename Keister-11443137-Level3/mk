@@ -1,0 +1,3 @@
+sudo mke2fs -b 1024 mydisk 1440
+cc -m32 main.c
+./a.out

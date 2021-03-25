@@ -1,0 +1,4 @@
+rm mydisk
+wget https://eecs.wsu.edu/~cs360/samples/LEVEL2/mydisk
+cc -m32 main.c
+./a.out

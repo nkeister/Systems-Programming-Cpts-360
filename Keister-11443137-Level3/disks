@@ -1,0 +1,13 @@
+rm dif2
+sudo rm disk1
+rm disk2
+rm disk3.1
+rm disk3.2
+wget https://eecs.wsu.edu/~cs360/samples/PROJECT/dif2
+wget https://eecs.wsu.edu/~cs360/samples/PROJECT/disk1
+wget https://eecs.wsu.edu/~cs360/samples/PROJECT/disk2
+wget https://eecs.wsu.edu/~cs360/samples/PROJECT/disk3.1
+wget https://eecs.wsu.edu/~cs360/samples/PROJECT/disk3.2
+rm a.out
+cc -m32 main.c -o runthis
+ls

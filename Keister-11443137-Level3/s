@@ -1,0 +1,3 @@
+sudo mount diskimage /mnt
+ls -l /mnt
+sudo umount /mnt

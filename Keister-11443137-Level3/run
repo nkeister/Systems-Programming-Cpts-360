@@ -1,0 +1,4 @@
+rm a.out
+sudo mke2fs -b 1024 diskimage 1440
+cc -m32 main.c
+./a.out
